@@ -1,0 +1,5 @@
+fastapi
+fastmcp
+requests
+beautifulsoup4
+uvicorn
