@@ -5,11 +5,10 @@ from bs4 import BeautifulSoup
 import json
 
 # === CONFIG ===
-CONFLUENCE_URL = "https://mock-data.atlassian.net/wiki/rest/api/content/search"
-CONFLUENCE_SPACE_KEY = "~712020daed5d59750c4ded965c600b01a4cc45"
-CONFLUENCE_API_USER = "lakshmi.gayathri.rangaraju@walmart.com"
-CONFLUENCE_API_TOKEN = "ATATT3xFfGF0ze2SQTFxl152qNKfTfkxH9qykjIzC9ECOchmyjqtV5_g2wY0H2e3HUtyn2XijtZcKG4mMQpxZScX7ItsDijTvigqoDQeCclwTSoCzIIIw-dVHk06l3kgN_Gsi4o4VPACaAp5NqTJQecmCeUPK59kzXgo8R41kvMoZnzYj8kKfbw=287FD2C5"  # Generate from Atlassian
-
+CONFLUENCE_URL = "{your_confluence_url}"
+CONFLUENCE_SPACE_KEY = "{your_space_key}"
+CONFLUENCE_API_USER = "{your_email}"
+CONFLUENCE_API_TOKEN = "{your_api_token}"
 OLLAMA_API_URL = "http://localhost:11434/api/generate"
 
 mcp = FastMCP("Confluence MCP")
