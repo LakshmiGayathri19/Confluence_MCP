@@ -6,10 +6,12 @@ import json
 import re
 
 # === CONFIG ===
-CONFLUENCE_URL = "https://mock-data.atlassian.net/wiki/rest/api/content/search"
-CONFLUENCE_SPACE_KEY = "~712020daed5d59750c4ded965c600b01a4cc45"
-CONFLUENCE_API_USER = "lakshmi.gayathri.rangaraju@walmart.com"
-CONFLUENCE_API_TOKEN = "your_api_token_here"  # Replace with your actual API token
+CONFLUENCE_URL = "{your_confluence_url}"
+CONFLUENCE_SPACE_KEY = "{your_space_key}"
+CONFLUENCE_API_USER = "{your_email}"
+CONFLUENCE_API_TOKEN = "{your_api_token}"
+OLLAMA_API_URL = "http://localhost:11434/api/generate"
+
 mcp = FastMCP("Confluence MCP")
 
 def confluence_search(query: str):
